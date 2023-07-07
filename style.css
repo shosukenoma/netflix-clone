@@ -1,1 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Poppins', sans-serif; */
+  box-sizing: border-box;
+}
 
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 86px;
+  padding: 0 168px;
+  /* This shows the header above the image.*/
+  position: absolute;
+  z-index: 5;
+  width: 100%
+}
+
+.logo {
+  /* flex: 1 1 860px; */
+  margin-right: auto;
+}
+
+.logo svg {
+  fill: #e50914;
+  height: 37px;
+}
+
+.select {
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px 0 5px 34px;
+  border-radius: 3px;
+  flex: 0 0 132px;
+  margin: 0 12px;
+}
+
+.button {
+  background: #e50914;
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 17px;
+  border-radius: 3px;
+  flex: 0 0 90px;
+  margin-left: 12px;
+  text-align: center;
+}
+
+/* SPLASH */
+
+.splash .background {
+  position: relative;
+}
+
+.splash .gradient {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  position: absolute;
+  inset: 0;
+}
+
+.splash .background img {
+  max-width: 100%;
+  opacity: 0.6;
+}
+
+/* Didn't understand this part at all.*/
